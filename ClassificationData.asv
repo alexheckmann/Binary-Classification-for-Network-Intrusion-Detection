@@ -1,0 +1,15 @@
+classdef ClassificationData
+    properties
+        dataset
+        predictors
+        response
+        isCategoricalPredictor
+    end
+
+    methods
+        function obj = BasicClass(dataset, predictors, response, isCategoricalPredictor)
+        if nargin == 4
+            obj.dataset = dataset;
+            obj.predictors = predictors;
+            
+end
